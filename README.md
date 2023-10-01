@@ -32,8 +32,15 @@ As shown in the microsoft azure website:
 8. Click Test Connection to test the connection.
 9. If the connection is successful, click OK to save the connection."
 
-I made approximately 8 different resource groups and I got a ton of errors. This was an error that I had gotten. I am unsure why this did not work, I tried making about 15 connections on workbench and it was just not connecting for some reason. I followed the connection instructions they had on the website and still got either one of the two errors listed below. I looked the errors up online and tried multiple varaitions and still am not getting it to connect. 
+I made approximately 8 different resource groups and I got a multitude of errors. I included errord that I had gotten in screenshot 2 and 3 when trying to connect. I am unsure why this did not work, I tried making about 15 connections on workbench and it was just not connecting for some reason. I followed the connection instructions they had on the website and still got either one of the two errors listed below. I looked the errors up online and tried multiple varaitions and still am not getting it to connect. 
 
+I created added in code from class 4 that had to do with patients and demographics and created my databases. However I kept getting errors as shown in screenshot 1.
+
+
+screenshot 1
+<img width="1176" alt="Screen Shot 2023-10-01 at 7 54 36 PM" src="https://github.com/malh718/mysql_cloudmanaged_databases/assets/102617334/837aa28b-c553-4973-8f9c-74054a4f030b">
+
+Screenshot 2 and 3
 <img width="400" alt="Screen Shot 2023-10-01 at 6 48 26 PM" src="https://github.com/malh718/mysql_cloudmanaged_databases/assets/102617334/c784b818-7959-4770-bdf9-6280915f676a">
 
 <img width="419" alt="Screen Shot 2023-10-01 at 7 29 00 PM" src="https://github.com/malh718/mysql_cloudmanaged_databases/assets/102617334/494555ab-6e1d-4b5b-83cc-1a2fbf3e6885">
