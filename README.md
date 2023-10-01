@@ -32,7 +32,7 @@ As shown in the microsoft azure website:
 8. Click Test Connection to test the connection.
 9. If the connection is successful, click OK to save the connection."
 
-I made approximately 8 different resource groups and I got a multitude of errors. I included errord that I had gotten in screenshot 2 and 3 when trying to connect. I am unsure why this did not work, I tried making about 15 connections on workbench and it was just not connecting for some reason. I followed the connection instructions they had on the website and still got either one of the two errors listed below. I looked the errors up online and tried multiple varaitions and still am not getting it to connect. 
+I made approximately 8 different resource groups and I got a multitude of errors. I included errord that I had gotten in screenshot 2 and 3 when trying to connect. I am unsure why this did not work, I tried making about 15 connections on workbench and it was just not connecting for some reason. I followed the connection instructions they had on the website and still got either one of the two errors listed below. I looked the errors up online and tried multiple varaitions and still am not getting it to connect. It is definitly not a password issue, as I made sure to put the correct information the multiple times I tried. 
 
 I created added in code from class 4 that had to do with patients and demographics and created my databases. However I kept getting errors as shown in screenshot 1.
 
