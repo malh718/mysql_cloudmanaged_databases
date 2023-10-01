@@ -6,6 +6,9 @@ GCP and MySQL
 In order to do this process you got to google console and sign in. From there you once you have created a project and are in the correct folder you must make sure that you are on the lowest possible cost option. To do that on GCP you have to go to the enterprise option, make sure that you are on 10 GB and also put no backups. From here make note of your IP address that is loaded. From here you can go to the MYSQL workbench and create a new connection. For the connection name, I put gcp scratch instance and for the hostname I inserted in my IP address. From here I was able to create my own tables. My foreign key connecting the two table was the insurnace ID. And my primary key for insurance AETNA was insurance_ID. From there once I had my column names saved and succesfully run, which I was able to see through the green checkmarks once I had clicked the lightening icon, I then created another file where I selected all(*) from my insuranceAETNA table. From ther I went to databases and reverse engineer and I was able to see my ERD Diagram.
 Errors:Initially, I had tried to create a new MYSQL connection, however everytime I ran it, it did not go through. Thankfully, once I had returned to my first connection, all my tables executed and ran fine. 
 
+
+
+
 Azure and MySQL
 To connect with MySQL workbench client, follow the steps below.
 1. Click the + symbol in the MySQL Connections tab to add a new connection.
