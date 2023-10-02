@@ -25,16 +25,23 @@ As shown in the microsoft azure website:
 1. Click the + symbol in the MySQL Connections tab to add a new connection.
 2. Enter a name for the connection in the Connection name field.
 3. Select Standard (TCP/IP) as the Connection Type.
-4. Enter 4hw504.mysql.database.azure.com in hostname field.
+4. Enter mnh.mysql.database.azure.com in hostname field.
 5. Enter mnh as username and then enter your Password.
 6. Go to the SSL tab and update the Use SSL field to Require.
 7. In the SSL CA File field, enter the file location of the DigiCertGlobalRootCA.crt.pem file.
 8. Click Test Connection to test the connection.
 9. If the connection is successful, click OK to save the connection."
+<img width="1294" alt="Screen Shot 2023-10-01 at 8 24 12 PM" src="https://github.com/malh718/mysql_cloudmanaged_databases/assets/102617334/5733ca4d-4752-4ab1-8bfa-381536971f61">
 
-I made approximately 8 different resource groups and I got a multitude of errors. I included errord that I had gotten in screenshot 2 and 3 when trying to connect. I am unsure why this did not work, I tried making about 15 connections on workbench and it was just not connecting for some reason. I followed the connection instructions they had on the website and still got either one of the two errors listed below. I looked the errors up online and tried multiple varaitions and still am not getting it to connect. It is definitly not a password issue, as I made sure to put the correct information the multiple times I tried. 
+In this example, I used the patients and demographics code that was given in week4.
+For demographics, there was demographic_id, patient_id, first_name, last name date of birth, address, phone number and email. And for patient there was mrn and patient_id. The primary key for patients was patient_id and for demographics it was demographic_id.The foreign key is patient_id.
 
-I created added in code from class 4 that had to do with patients and demographics and created my databases. However I kept getting errors as shown in screenshot 1.
+
+*** I really did not think it was going to work for a couple hours, but then after my like 12th attempt it worked. Below are some of the errors I got, when i thought it wasnt going to work. 
+
+I made approximately 8 different resource groups and I got a multitude of errors. I included errors that I had gotten in screenshot 2 and 3 when trying to connect. I am unsure why this did not work, I tried making about 15 connections on workbench and it was just not connecting for some reason. I followed the connection instructions they had on the website and still got either one of the two errors listed below. I looked the errors up online and tried multiple varaitions and still am not getting it to connect. It is definitly not a password issue, as I made sure to put the correct information the multiple times I tried. 
+
+I created added in code from class 4 that had to do with patients and demographics and created my databases. However I kept getting errors as shown in screenshot 1. I have been the past 4 hours trouble shooting this and it is just not connecting. I have public access allowed, I also have allow all for the firewall portion. 
 
 
 screenshot 1
@@ -46,4 +53,4 @@ Screenshot 2 and 3
 <img width="419" alt="Screen Shot 2023-10-01 at 7 29 00 PM" src="https://github.com/malh718/mysql_cloudmanaged_databases/assets/102617334/494555ab-6e1d-4b5b-83cc-1a2fbf3e6885">
 
 
-
+***But then it worked!!!!!! and the issue was the stuff on the ssl tab. When I took that out, and then put in the code shown on in week4, it went through and I was able to succesfully reverse engineer and show my ERD with patients and demographics. 
