@@ -31,7 +31,13 @@ As shown in the microsoft azure website:
 7. In the SSL CA File field, enter the file location of the DigiCertGlobalRootCA.crt.pem file.
 8. Click Test Connection to test the connection.
 9. If the connection is successful, click OK to save the connection."
+
+
 <img width="1294" alt="Screen Shot 2023-10-01 at 8 24 12 PM" src="https://github.com/malh718/mysql_cloudmanaged_databases/assets/102617334/5733ca4d-4752-4ab1-8bfa-381536971f61">
+
+<img width="1234" alt="Screen Shot 2023-10-01 at 8 25 09 PM" src="https://github.com/malh718/mysql_cloudmanaged_databases/assets/102617334/2d9b337a-4189-4271-a898-d24cdcf8f63f">
+
+
 
 In this example, I used the patients and demographics code that was given in week4.
 For demographics, there was demographic_id, patient_id, first_name, last name date of birth, address, phone number and email. And for patient there was mrn and patient_id. The primary key for patients was patient_id and for demographics it was demographic_id.The foreign key is patient_id.
