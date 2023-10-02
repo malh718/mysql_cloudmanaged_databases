@@ -41,6 +41,7 @@ As shown in the microsoft azure website:
 
 In this example, I used the patients and demographics code that was given in week4.
 For demographics, there was demographic_id, patient_id, first_name, last name date of birth, address, phone number and email. And for patient there was mrn and patient_id. The primary key for patients was patient_id and for demographics it was demographic_id.The foreign key is patient_id.
+<img width="1200" alt="Screen Shot 2023-10-01 at 8 33 46 PM" src="https://github.com/malh718/mysql_cloudmanaged_databases/assets/102617334/7ce4a513-9fe8-497d-9646-a1b50da47549">
 
 
 *** I really did not think it was going to work for a couple hours, but then after my like 12th attempt it worked. Below are some of the errors I got, when i thought it wasnt going to work. 
